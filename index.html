@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Dollars to Shekels</title>
+</head>
+
+<body>
+    <script>
+        var dollars = ""
+
+        do {
+            dollars = prompt("Please enter the number of dollars");
+        }
+        while (isNaN(parseFloat(dollars))); // not a number
+
+        var shekels = dollars * 3.6
+
+        document.write(dollars + " dollars = " + shekels + " shekels.")
+    </script>
+</body>
+
+</html>
